@@ -146,7 +146,7 @@ read_creds(){
   <read_creds>'
   creds_file=${1}
 
-     if [[ ${creds_file} =~ \.json ]]; then
+  if [[ ${creds_file} =~ \.json ]]; then
     json_flag=true
   elif [[ ${creds_file} =~ \.yaml ]]; then
     json_flag=false
