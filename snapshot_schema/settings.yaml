@@ -1,0 +1,6 @@
+snapshot-credentials:
+  aws:
+    credentials:
+      access: 
+      secret: 
+      region: 
